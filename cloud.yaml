@@ -1,0 +1,25 @@
+tasks:
+  - id: 1
+    title: Find stale Kubernetes deployments and upload to JIRA
+    description: This task scans your Kubernetes clusters to identify deployments that haven't been updated in a specified period and automatically creates JIRA tickets for review.
+    integrations:
+      - name: Kubernetes
+        icon_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/2109px-Kubernetes_logo_without_workmark.svg.png
+      - name: JIRA
+        icon_url: https://logos-world.net/wp-content/uploads/2021/02/Jira-Emblem.png
+  - id: 2
+    title: Create a compliance report for users which did not activate MFA
+    description: This task will discovery users which did not activate MFA on AWS and notify on a specified Slack channel.
+    integrations:
+      - name: AWS
+        icon_url: https://alvinlal.netlify.app/static/94ca611b10d1b5edd9d6083da83f9045/aws.png
+      - name: Slack
+        icon_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png
+  - id: 3
+    title: Solve JIRA Tickets related to AWS permissions
+    description: Scan a specific JIRA project for tickets releted to AWS permissions and solve them. Move them to done in case completed.
+    integrations:
+      - name: AWS
+        icon_url: https://alvinlal.netlify.app/static/94ca611b10d1b5edd9d6083da83f9045/aws.png
+      - name: JIRA
+        icon_url: https://logos-world.net/wp-content/uploads/2021/02/Jira-Emblem.png
