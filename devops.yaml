@@ -5,7 +5,7 @@ tasks:
     content: Deploy chart {{Chart}} to cluster {{Cluster}}.
     integrations:
       - name: Helm
-        icon_url: https://www.clipartmax.com/png/full/299-2998680_helm-logo-kubernetes-helm.png
+        icon_url: https://i0.wp.com/codeblog.dotsandbrackets.com/wp-content/uploads/2018/07/helm-logo.jpg?ssl=1
       - name: Kubernetes
         icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png
 

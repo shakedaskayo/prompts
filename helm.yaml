@@ -5,7 +5,7 @@ tasks:
     content: Rollback Helm deployment {{Deployment Name}} to version {{Version}} in Kubernetes cluster {{Cluster Name}}.
     integrations:
       - name: Helm
-        icon_url: https://www.clipartmax.com/png/full/299-2998680_helm-logo-kubernetes-helm.png
+        icon_url: https://i0.wp.com/codeblog.dotsandbrackets.com/wp-content/uploads/2018/07/helm-logo.jpg?ssl=1
       - name: Kubernetes
         icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png
   - title: List Helm deployments
@@ -13,7 +13,7 @@ tasks:
     content: List all Helm deployments in Kubernetes cluster {{Cluster Name}}.
     integrations:
       - name: Helm
-        icon_url: https://www.clipartmax.com/png/full/299-2998680_helm-logo-kubernetes-helm.png
+        icon_url: https://i0.wp.com/codeblog.dotsandbrackets.com/wp-content/uploads/2018/07/helm-logo.jpg?ssl=1
       - name: Kubernetes
         icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png
 
@@ -22,6 +22,6 @@ tasks:
     content: Delete Helm deployment {{Deployment Name}} from Kubernetes cluster {{Cluster Name}}.
     integrations:
       - name: Helm
-        icon_url: https://www.clipartmax.com/png/full/299-2998680_helm-logo-kubernetes-helm.png
+        icon_url: https://helm.sh/img/helm.svg
       - name: Kubernetes
         icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png
