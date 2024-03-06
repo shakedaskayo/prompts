@@ -7,7 +7,7 @@ tasks:
       - name: Helm
         icon_url: https://i0.wp.com/codeblog.dotsandbrackets.com/wp-content/uploads/2018/07/helm-logo.jpg?ssl=1
       - name: Kubernetes
-        icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png
+        icon_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg
 
   - title: Rollback Terraform
     description: Rollback Terraform deployment.

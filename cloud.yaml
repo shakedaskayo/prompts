@@ -4,7 +4,7 @@ tasks:
     content: Find stale Kubernetes deployments and upload to JIRA for review - open a task in project {{JIRA Project Name}} with the details of the stale deployments.
     integrations:
       - name: Kubernetes
-        icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png
+        icon_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg
       - name: JIRA
         icon_url: https://logos-world.net/wp-content/uploads/2021/02/Jira-Emblem.png
   - title: Create Compliance report
@@ -51,7 +51,7 @@ tasks:
     content: Monitor and send critical alerts of Kubernetes cluster {Cluster Name} to Slack channel {Channel Name}.
     integrations:
       - name: Kubernetes
-        icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png
+        icon_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg
 
   - title: JIRA ticket updates based on GitHub PRs
     description: This task updates JIRA ticket status and comments when a linked GitHub PR is merged.
