@@ -1,0 +1,22 @@
+
+tasks:
+  - title: Deploy Lambda function
+    description: Deploy a pre-written Lambda function to AWS.
+    content: Deploy Lambda function {{Function Name}} to AWS Account {{Account Name}}.
+    integrations:
+      - name: AWS
+        icon_url: https://alvinlal.netlify.app/static/94ca611b10d1b5edd9d6083da83f9045/aws.png
+
+  - title: Start EC2 instances
+    description: Start one or more EC2 instances.
+    content: Start EC2 instances {{Instance IDs}} in AWS account {{Account Name}}.
+    integrations:
+      - name: AWS
+        icon_url: https://alvinlal.netlify.app/static/94ca611b10d1b5edd9d6083da83f9045/aws.png
+
+  - title: Stop RDS instance
+    description: Stop a running RDS instance.
+    content: Stop RDS instance {{Instance Name}} in AWS account {{Account Name}}.
+    integrations:
+      - name: AWS
+        icon_url: https://alvinlal.netlify.app/static/94ca611b10d1b5edd9d6083da83f9045/aws.png

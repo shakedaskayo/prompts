@@ -1,0 +1,26 @@
+
+tasks:
+  - title: Deploy app
+    description: Deploy Helm chart to Kubernetes.
+    content: Deploy chart {{Chart}} to cluster {{Cluster}}.
+    integrations:
+      - name: Helm
+        icon_url: https://www.clipartmax.com/png/full/299-2998680_helm-logo-kubernetes-helm.png
+      - name: Kubernetes
+        icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png
+
+  - title: Rollback Terraform
+    description: Rollback Terraform deployment.
+    content: Rollback Terraform deployment {{Name}} to version {{Version}}.
+    integrations:
+      - name: Terraform
+        icon_url: https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png
+
+  - title: Update JIRA after AWS
+    description: Update JIRA ticket with AWS deployment status.
+    content: Update JIRA ticket {{ID}} with status of AWS deployment {{Deployment}}.
+    integrations:
+      - name: JIRA
+        icon_url: https://logos-world.net/wp-content/uploads/2021/02/Jira-Emblem.png
+      - name: AWS
+        icon_url: https://alvinlal.netlify.app/static/94ca611b10d1b5edd9d6083da83f9045/aws.png
