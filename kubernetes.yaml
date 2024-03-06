@@ -5,18 +5,18 @@ tasks:
     content: Create new Kubernetes Pod {{Pod Name}} in cluster {{Cluster Name}}.
     integrations:
       - name: Kubernetes
-        icon_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg
+        icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png
 
   - title: Delete Kubernetes Service
     description: Delete a specific Kubernetes Service from your cluster.
     content: Delete Kubernetes Service {{Service Name}} from cluster {{Cluster Name}}.
     integrations:
       - name: Kubernetes
-        icon_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg
+        icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png
 
   - title: Start Kubernetes Job
     description: Start a specific Kubernetes Job in your cluster.
     content: Start Kubernetes Job {{Job Name}} in cluster {{Cluster Name}}.
     integrations:
       - name: Kubernetes
-        icon_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg
+        icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png

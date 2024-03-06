@@ -7,8 +7,7 @@ tasks:
       - name: Helm
         icon_url: https://www.clipartmax.com/png/full/299-2998680_helm-logo-kubernetes-helm.png
       - name: Kubernetes
-        icon_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg
-
+        icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png
   - title: List Helm deployments
     description: List all active Helm deployments in a Kubernetes cluster.
     content: List all Helm deployments in Kubernetes cluster {{Cluster Name}}.
@@ -16,7 +15,7 @@ tasks:
       - name: Helm
         icon_url: https://www.clipartmax.com/png/full/299-2998680_helm-logo-kubernetes-helm.png
       - name: Kubernetes
-        icon_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg
+        icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png
 
   - title: Delete Helm deployment
     description: Delete a specific Helm deployment.
@@ -25,4 +24,4 @@ tasks:
       - name: Helm
         icon_url: https://www.clipartmax.com/png/full/299-2998680_helm-logo-kubernetes-helm.png
       - name: Kubernetes
-        icon_url: https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg
+        icon_url: https://logos-world.net/wp-content/uploads/2020/09/Kubernetes-Emblem.png
